@@ -9,3 +9,21 @@ int main() {
 
     return 0;
 }
+
+
+Increment and Decrement
+
+#include <stdio.h>
+
+int main() {
+    int x = 5, y;
+
+    y = x++;   // post-increment
+    printf("Post: x = %d, y = %d\n", x, y);
+
+    x = 5;     // reset
+    y = ++x;   // pre-increment
+    printf("Pre:  x = %d, y = %d\n", x, y);
+
+    return 0;
+}
