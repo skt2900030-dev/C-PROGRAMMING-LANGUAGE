@@ -1,0 +1,17 @@
+nt main(){
+int X,Y,Z;
+int r;
+scanf(" %d %d %d",&X, &Y, &Z);
+
+//swaping of three numbers to left side
+
+r=X;
+X=Y;
+Y=Z;
+Z=r;
+printf("X = %d\n",X);
+printf("Y = %d\n",Y);
+printf("Z = %d\n",Z);
+return 0;
+
+}
