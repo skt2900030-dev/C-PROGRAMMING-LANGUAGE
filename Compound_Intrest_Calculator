@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+double principal,rate, time;
+double amount, compound_intrest;
+
+printf("Enter the Principal amount : ");
+scanf("%lf",&principal);
+
+printf("Enter annual intrest rate : ");
+scanf("%lf",&rate);
+
+printf("Enter time in years : ");
+scanf("%lf",&time);
+
+amount = principal*pow(1+rate/100,time);
+
+compound_intrest = amount - principal;
+
+printf("\nFinal Amount = %.2f\n",amount);
+printf("\nCompound_Intrest = %.2f\n",compound_intrest);
+
+return 0;
+
+}
